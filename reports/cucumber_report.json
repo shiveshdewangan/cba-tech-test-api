@@ -1,0 +1,89 @@
+[
+  {
+    "description": "    End to End CRUD operations/regression on User API",
+    "elements": [
+      {
+        "description": "",
+        "id": "covid19-the-game---villain;create,-view,-update-and-delete-user",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Create, View, Update and Delete User",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I have the user API",
+            "match": {
+              "location": "features/support/steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I can create a User",
+            "match": {
+              "location": "features/support/steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I can view the User",
+            "match": {
+              "location": "features/support/steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can update the User",
+            "match": {
+              "location": "features/support/steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I can delete the User",
+            "match": {
+              "location": "features/support/steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1074000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "covid19-the-game---villain",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "COVID19 the game - Villain",
+    "tags": [],
+    "uri": "features/user.feature"
+  }
+]
