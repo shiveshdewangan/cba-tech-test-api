@@ -3,7 +3,7 @@
 #### Technology used - CucumberJS for BDD, SupertestJs, JavaScript, NodeJs, CircleCI, Chai Assertions
 
 ### Running locally
-- `git https://github.com/shiveshdewangan/cba-tech-test-api.git`
+- `git clone https://github.com/shiveshdewangan/cba-tech-test-api.git`
 - `cd cba-tech-test-api`
 - `npm install`
 - `npm run test`
